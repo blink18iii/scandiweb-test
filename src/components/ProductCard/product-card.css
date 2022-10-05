@@ -1,0 +1,116 @@
+.product-card-wrapper {
+  position: relative;
+  max-width: 350px;
+  width: 350px;
+  height: 460px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 30px 25px 50px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.product-card-wrapper-blur {
+  position: relative;
+  max-width: 350px;
+  width: 350px;
+  height: 460px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 30px 25px 50px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  background-color: #fff9;
+}
+
+.product-card-img {
+  margin: 0 auto;
+  height: 356px;
+  max-width: 338px;
+  width: auto;
+}
+
+.product-card-img-out {
+  margin: 0 auto;
+  height: 356px;
+  max-width: 338px;
+  width: auto;
+  opacity: 0.5;
+}
+
+.product-card-name {
+  margin-top: 30px;
+  display: block;
+  font-weight: 300;
+}
+
+.product-card-price {
+  margin-top: 5px;
+  display: block;
+  font-weight: 500;
+}
+
+.product-card-wrapper:hover,
+.product-card-wrapper-blur:hover {
+  box-shadow: 0 0 20px #00000098;
+}
+
+.add-to-cart-btn,
+.remove-from-cart-btn {
+  position: absolute;
+  top: 338px;
+  right: 30px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #5ece7b;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.remove-from-cart-btn {
+  opacity: 1;
+}
+
+.add-to-cart-btn:hover,
+.remove-from-cart-btn:hover {
+  background-color: #399150;
+}
+
+.add-to-cart-btn:active,
+.remove-from-cart-btn:active {
+  background-color: #399150;
+}
+
+.add-to-cart-btn::after {
+  position: absolute;
+  width: 25px;
+  height: 16px;
+  content: url("../../assets/images/product-card/card.svg");
+  transform: translate(50%, 100%);
+}
+
+.remove-from-cart-btn::after {
+  position: absolute;
+  top: -1px;
+  left: -20px;
+  width: 0;
+  height: 0;
+  content: url("../../assets/images/product-card/delete-from-cart.svg");
+  transform: translate(50%, 100%);
+}
+
+.product-card-wrapper:hover .add-to-cart-btn,
+.product-card-wrapper:hover .remove-from-cart-btn {
+  opacity: 1;
+}
+
+.out-label {
+  position: absolute;
+  color: #8d8f9a;
+  text-align: center;
+  top: 50%;
+  right: 50%;
+  font-size: 24px;
+  transform: translate(50%, -50%);
+}
