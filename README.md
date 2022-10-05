@@ -1,11 +1,13 @@
 ## To start project:
 
 1. Clone project using https://github.com/blink18iii/scandiweb-test.git
-
-``cd scandiweb-test``
+``
+cd scandiweb-test
+``
 2. Install dependencies.
-
-``npm install``
+``
+npm install
+``
 3. Install dependencies for server (scandi-test/server).
 Original GraphQL endpoint for Junior Developer position in Scandiweb - https://github.com/scandiweb/junior-react-endpoint.git.
 
