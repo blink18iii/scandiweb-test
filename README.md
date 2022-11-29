@@ -9,9 +9,11 @@ Original GraphQL endpoint for Junior Developer position in Scandiweb - https://g
 ``cd server``
 ``cd junior-react-endpoint``
 ``npm install``
+``npm build``
 ``npm start``
-4. Build the server - yarn build (npm build).
-5. Start the server - yarn start (npm start).
-6. Start the project - yarn start (npm start).
+``cd ..``
+``cd ..``
+4. Run project.
+``npm start``
 
 The browser window should open automatically. If not, navigate to http://localhost:3000.
