@@ -5,8 +5,9 @@
 2. Install dependencies.
 ``npm install``
 3. Install dependencies for server (scandi-test/server).
-Original GraphQL endpoint for Junior Developer position in Scandiweb - https://github.com/scandiweb/junior-react-endpoint.git.
+Original GraphQL endpoint for Junior Developer position in Scandiweb - https://github.com/scandiweb/junior-react-endpoint.git
 ``cd server``
+``cd junior-react-endpoint``
 ``npm install``
 ``npm start``
 4. Build the server - yarn build (npm build).
